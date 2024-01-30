@@ -1,5 +1,4 @@
 export default class Building {
-
   constructor(sqft) {
     const estamosEnUnaClaseHija = new.target !== Building;
     const noTieneElMethodoEvacuationWarningMessage = typeof this.evacuationWarningMessage === 'undefined';
@@ -7,7 +6,7 @@ export default class Building {
       throw new Error('Class extending Building must override evacuationWarningMessage');
     }
 
-    this.sqft = sqft
+    this.sqft = sqft;
   }
 
   set sqft(value) {
@@ -21,5 +20,4 @@ export default class Building {
   get sqft() {
     return this._sqft;
   }
-
 }
