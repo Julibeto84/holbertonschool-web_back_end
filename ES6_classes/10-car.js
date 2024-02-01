@@ -18,7 +18,7 @@ export default class Car {
   }
 
   set motor(value) {
-    this._brand = value;
+    this._motor = value;
   }
 
   get color() {
