@@ -30,7 +30,6 @@ export default class Car {
   }
 
   cloneCar() {
-    const copyCar = structuredClone(Car);
-    return copyCar
+    return new this.__proto__.constructor;
   }
 }
