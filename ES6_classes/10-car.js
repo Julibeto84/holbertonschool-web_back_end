@@ -30,6 +30,6 @@ export default class Car {
   }
 
   cloneCar() {
-    return new Car(constructor);
-  }
+    return new this.__proto__.constructor;
+}
 }
