@@ -30,6 +30,7 @@ export default class Car {
   }
 
   cloneCar() {
-    return new Car(constructor);
+    const copyCar = structuredClone(Car);
+    return copyCar
   }
 }
