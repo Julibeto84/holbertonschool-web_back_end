@@ -6,5 +6,5 @@ export default function updateUniqueItems(map) {
     if (value === 1) {
       map.set(key, 100);
     }
-  })
+  });
 }
